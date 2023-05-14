@@ -1,0 +1,14 @@
+.Products {
+
+  .Products__container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+}

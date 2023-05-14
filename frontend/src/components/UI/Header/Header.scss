@@ -1,0 +1,57 @@
+.Header {
+  border-bottom: 1px solid black;
+  .Header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+  }
+
+  .Header__btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+    .Header__add {
+      text-decoration: none;
+      padding: 7px 15px;
+      border: 1px solid green;
+      transition: 0.3s;
+      border-radius: 5px;
+
+      &:hover {
+        background: lightgreen;
+        color: white;
+      }
+    }
+
+    .Header__delete {
+
+      button {
+        border: 1px solid red;
+        border-radius: 5px;
+        padding: 7px 15px;
+        background: none;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+          background: lightcoral;
+          color: white;
+        }
+
+        &:disabled {
+          background: gray;
+          cursor: not-allowed;
+          color: white;
+        }
+      }
+    }
+
+    .Header__delete-adl {
+
+    }
+  }
+}

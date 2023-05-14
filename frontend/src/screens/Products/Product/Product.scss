@@ -1,0 +1,38 @@
+.Product {
+  border: 1px solid black;
+  padding: 20px;
+  position: relative;
+  width: 90%;
+
+  .Product__checkbox {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    input {
+      cursor: pointer;
+    }
+  }
+
+  .Product__body {
+    text-align: center;
+  }
+}
+
+@media (min-width: 500px) {
+  .Product {
+    width: 60%;
+  }
+}
+
+@media (min-width: 700px) {
+  .Product {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Product {
+    width: 25%;
+  }
+}

@@ -1,0 +1,2 @@
+/api/*         https://junior-developer-test-scandiweb.000webhostapp.com/:splat 200
+/*             /index.html 200

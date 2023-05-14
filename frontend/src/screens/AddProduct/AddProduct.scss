@@ -1,0 +1,22 @@
+.ProductAdd {
+
+  #product_form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .Product__form-element {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+
+      input {
+        padding: 3px;
+        border-radius: 2px;
+      }
+      .Product__form-input--valid {
+        border: 1px solid red;
+      }
+    }
+  }
+}
